@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gem Commerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              heading: "#161723",
+              text: "#424153",
+              primary: "#F06B48",
+              "icon-green": "#EFFFE6",
+              "icon-yellow": "#FFF8E6",
+              "icon-cyan": "#E6FFFA",
+              "icon-pink": "#FFF0EB",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-white">
+    <section class="py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-6 flex flex-col items-center">
+    <h1
+      class="text-3xl md:text-[40px] font-semibold text-heading text-center mb-16 max-w-2xl leading-tight"
+    >
+      What makes us different<br />makes them stronger
+    </h1>
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center w-full mb-12"
+    >
+      <div class="space-y-16 flex flex-col justify-center">
+        <div class="flex flex-row items-start gap-6 text-left">
+          <div
+            class=""
+          >
+            <img src="./assets/food.svg" alt="Real Food" class="" decoding="async" />
+          </div>
+          <div class="flex-1">
+            <h3 class="font-semibold text-heading text-[19px] mb-1">
+              Real Food
+            </h3>
+            <p class="text-text text-base font-normal leading-relaxed">
+              Wholesome recipes for dogs with real meat and veggies.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-row items-start gap-6 text-left">
+          <div
+            class=""
+          >
+            <img src="./assets/premium.svg" alt="Premium Ingredient" class="" decoding="async"/>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-semibold text-heading text-[19px] mb-1">
+              Premium Ingredient
+            </h3>
+            <p class="text-text text-base font-normal leading-relaxed">
+              Elevating pet care with unmatched safety and quality.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center">
+        <img
+          src="./assets/hero.svg"
+          alt="Dog Food Bowl"
+          class="w-full max-w-lg h-auto object-contain"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </div>
+
+      <div class="space-y-16 flex flex-col justify-center">
+        <div class="flex flex-row items-start gap-6 text-left">
+          <div
+            class=""
+          >
+            <img src="./assets/fresh.svg" alt="Made Fresh" class="" decoding="async"/>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-semibold text-heading text-[19px] mb-1">
+              Made Fresh
+            </h3>
+            <p class="text-text text-base font-normal leading-relaxed">
+              We prioritize maintaining the integrity of whole foods and
+              nutrition.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-row items-start gap-6 text-left">
+          <div
+            class=""
+          >
+            <img
+              src="./assets/vet-developer.svg"
+              alt="Vet Developed"
+              class=""
+              decoding="async"
+            />
+          </div>
+          <div class="flex-1">
+            <h3 class="font-semibold text-heading text-[19px] mb-1">
+              Vet Developed
+            </h3>
+            <p class="text-text text-base font-normal leading-relaxed">
+              We raise the bar for dog nutrition, surpassing industry
+              expectations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center gap-6 w-full max-w-md">
+      <button
+        class="bg-primary hover:bg-[#d95a3a] text-white font-semibold py-3 px-8 rounded-md w-full text-base transition-colors shadow-sm"
+      >
+        Get your dog's healthy meal today!
+      </button>
+
+      <div
+        class="flex flex-col md:flex-row items-center gap-4 text-text font-normal text-[13px]"
+      >
+        <div class="flex items-center gap-2 whitespace-nowrap">
+          <img src="./assets/shield.svg" alt="Shield" class="" decoding="async" />
+          <span>30-day money back guarantee</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <img src="./assets/paypal.svg" alt="PayPal" class="" decoding="async" />
+          <img src="./assets/visa.svg" alt="Visa" class="" decoding="async" />
+          <img src="./assets/mastercard.svg" alt="Mastercard" class="" decoding="async" />
+          <img src="./assets/apple-pay.svg" alt="Apple Pay" class="" decoding="async" />
+          <img src="./assets/google-pay.svg" alt="Google Pay" class="" decoding="async" />
+        </div>
+      </div>
+    </div>
+      </div>
+    </section>
+
+    <section class="bg-[#F8F8F8] py-20">
+      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div class="space-y-4">
+            <div class="space-y-3">
+              <h2 class="text-3xl md:text-[40px] font-semibold text-heading leading-tight max-w-2xl">
+                Nutrition is the foundation for longer, healthier lives in dogs.
+              </h2>
+            <p class="text-text font-normal text-base leading-relaxed">
+              Invest in your dog's future with our scientifically formulated superfood-powered supplements. Give them the nutrition they deserve and watch them thrive with vitality, energy, and the joy of a longer, healthier life.
+            </p>
+          </div>
+
+          <div class="space-y-2">
+            <h3 class="font-semibold text-heading text-[19px]">Key Points:</h3>
+            
+            <div class="flex gap-4 items-start">
+              <span class="text-[33px] font-bold text-primary w-20 flex-shrink-0">97%</span>
+              <p class="text-text text-base font-normal leading-relaxed pt-2">Dogs choose our dog food over leading brands because of its real functional ingredients and delicious flavor.</p>
+            </div>
+            
+            <div class="flex gap-4 items-start border-t border-gray-200 pt-2">
+              <span class="text-[33px] font-bold text-primary w-20 flex-shrink-0">84%</span>
+              <p class="text-text text-base leading-relaxed pt-2">Our dog food provides superior nutrition and a patented probiotic for optimal nutrient absorption.</p>
+            </div>
+
+            <div class="flex gap-4 items-start border-t border-gray-200 pt-2">
+              <span class="text-[33px] font-bold text-primary w-20 flex-shrink-0">92%</span>
+              <p class="text-text text-base leading-relaxed pt-2">Our dog food's high protein and fat digestibility contribute to ideal stool quality.</p>
+            </div>
+          </div>
+
+          <button class="bg-primary hover:bg-[#d95a3a] text-white font-semibold py-3 px-8 rounded-md w-full text-base transition-colors shadow-sm mt-2">
+            Give your furry friend the gift of wholesome nutrition
+          </button>
+        </div>
+
+        <div class="flex justify-center lg:justify-end">
+          <img src="./assets/dog-image.svg" alt="Happy Dog" class="w-full h-auto object-cover rounded-xl shadow-lg" loading="eager" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-6 flex flex-col gap-24">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div class="order-2 lg:order-1">
+             <img src="./assets/dog-eating.svg" alt="Dog Eating" class="w-full h-auto object-cover rounded-2xl" loading="lazy" decoding="async" />
+          </div>
+          <div class="space-y-6 order-1 lg:order-2">
+            <h2 class="text-3xl md:text-[40px] font-semibold text-heading leading-tight">
+              Improve overall gastrointestinal health for better nutrient absorption
+            </h2>
+            <p class="text-text font-normal text-base leading-relaxed">
+              Through rigorous scientific studies and consultations with veterinarians, we have created a breakthrough formula exclusively tailored to combat the health challenges prevalent in dogs. A staggering 91% of our customers have reported significant improvements in their dogs' health after incorporating our product into their diet.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div class="space-y-6">
+            <h2 class="text-3xl md:text-[40px] font-semibold text-heading leading-tight">
+              Prebiotics nourish the beneficial gut bacteria, supporting digestive health
+            </h2>
+            <p class="text-text font-normal text-base leading-relaxed">
+              Our dog food formula contains carefully selected prebiotics that work in harmony with the gut microbiota, providing the necessary nutrients for the growth and maintenance of beneficial bacteria, ultimately supporting digestive health.
+            </p>
+          </div>
+          <div>
+             <img src="./assets/dog-food.svg" alt="Dog Food" class="w-full h-auto object-cover rounded-2xl" loading="lazy" decoding="async" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
